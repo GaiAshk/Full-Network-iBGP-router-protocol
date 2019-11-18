@@ -1,0 +1,1061 @@
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.033
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.000 0 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 10.042
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.001 0 1.3.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.049
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 10.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 10.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 10.001 0 1.9.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.066
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.000 0 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.070
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.000 0 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 10.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.083
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 10.001 0 1.9.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.086
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.000 0 1.6.0.1
+
+Routing table (10.039)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+
+Forwarding table (10.090)
+1.5.0.0/16 4
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.093
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.028 0.014 1.2.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 10.108
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.044 0.032 1.3.0.1 1.1.0.1
+
+Routing table (10.097)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+
+Forwarding table (10.110)
+1.5.0.0/16 4
+1.3.0.0/16 3
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.112
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.065 0.043 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.116
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.039 0.022 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.119
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.039 0.022 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.121
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.039 0.022 1.9.0.1 1.5.0.1
+
+Routing table (10.120)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.128
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.071 0.012 1.1.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.132
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.008 0.012 1.6.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.134
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.097 0.046 1.9.0.1 1.3.0.1
+
+Forwarding table (10.133)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+0.0.0.0/0 0
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.136
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.039 0.022 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.134
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.104 0.032 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.140
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.082 0.052 1.2.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.142
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.097 0.046 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.143
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.097 0.046 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.143
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.104 0.048 1.1.0.1 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.148
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.065 0.042 1.6.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.151
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.102 0.034 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.157
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.120 0.041 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.158
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.097 0.046 1.9.0.1 1.3.0.1
+
+Routing table (10.143)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.161
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.120 0.041 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.161
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.120 0.041 1.9.0.1 1.1.0.1
+
+Forwarding table (10.156)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 10.161
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.122 0.061 1.3.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.166
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.120 0.041 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.170
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.145 0.042 1.5.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.175
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.117 0.062 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.183
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.161 0.057 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.186
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 10.100 0.060 1.6.0.1 1.1.0.1 1.3.0.1
+
+Routing table (10.170)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     10.170    0.027     2      valid 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.188
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 10.152 0.059 1.1.0.1 1.6.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.190
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.143 0.053 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 10.189
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.143 0.044 1.3.0.1 1.1.0.1 1.6.0.1
+
+Forwarding table (10.187)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+0.0.0.0/0 0
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.193
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.143 0.053 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.194
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.143 0.053 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.207
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.143 0.053 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.202
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.120 0.085 1.6.0.1 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.218
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.170 0.027 1.9.0.1 1.6.0.1
+
+Routing table (10.202)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     10.170    0.027     2      valid 1.9.0.1 1.6.0.1
+1.8.0.0/16     10.202    0.054     4      valid 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.221
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.170 0.027 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.221
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.170 0.027 1.9.0.1 1.6.0.1
+
+Forwarding table (10.217)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+1.8.0.0/16 4
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.225
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.141 0.074 1.6.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.226
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.189 0.110 1.1.0.1 1.3.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.231
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.199 0.080 1.5.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.238
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.170 0.027 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.245
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.202 0.054 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 10.242
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.198 0.088 1.3.0.1 1.4.0.1 1.7.0.1
+
+Routing table (10.227)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     10.170    0.027     2      valid 1.9.0.1 1.6.0.1
+1.8.0.0/16     10.202    0.054     4      valid 1.9.0.1 1.5.0.1 1.8.0.1
+1.4.0.0/16     10.227    0.090     0      valid 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.246
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 10.208 0.102 1.1.0.1 1.6.0.1 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.249
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.202 0.054 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.247
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.158 0.124 1.6.0.1 1.1.0.1 1.3.0.1 1.4.0.1
+
+Forwarding table (10.245)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+1.8.0.0/16 4
+1.4.0.0/16 0
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 10.249
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 10.222 0.054 1.5.0.1 1.6.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.254
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.202 0.054 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.262
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.228 0.091 1.1.0.1 1.6.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.267
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 10.202 0.054 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 10.268
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 10.208 0.060 1.2.0.1 1.5.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 10.272
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.181 0.099 1.6.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+Routing table (10.257)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     10.170    0.027     2      valid 1.9.0.1 1.6.0.1
+1.8.0.0/16     10.202    0.054     4      valid 1.9.0.1 1.5.0.1 1.8.0.1
+1.4.0.0/16     10.227    0.090     0      valid 1.9.0.1 1.2.0.1 1.4.0.1
+1.7.0.0/16     10.257    0.118     0      valid 1.9.0.1 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.283
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.227 0.090 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.283
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.227 0.090 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.283
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.227 0.090 1.9.0.1 1.2.0.1 1.4.0.1
+
+Forwarding table (10.273)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+1.8.0.0/16 4
+1.4.0.0/16 0
+1.7.0.0/16 0
+0.0.0.0/0 0
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.296
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 10.227 0.090 1.9.0.1 1.2.0.1 1.4.0.1
+
+Routing table (10.287)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     10.039    0.022     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     10.097    0.046     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     10.120    0.041     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     10.143    0.053     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     10.170    0.027     2      valid 1.9.0.1 1.6.0.1
+1.8.0.0/16     10.202    0.054     4      valid 1.9.0.1 1.5.0.1 1.8.0.1
+1.4.0.0/16     10.227    0.090     0      valid 1.9.0.1 1.2.0.1 1.4.0.1
+1.7.0.0/16     10.287    0.088     4      valid 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+Forwarding table (10.299)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+1.8.0.0/16 4
+1.4.0.0/16 0
+1.7.0.0/16 4
+0.0.0.0/0 0
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.307
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.268 0.137 1.1.0.1 1.3.0.1 1.4.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.309
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.257 0.118 1.9.0.1 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 10.310
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.257 0.118 1.9.0.1 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.313
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.257 0.118 1.9.0.1 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 10.323
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.280 0.116 1.1.0.1 1.6.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 10.327
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.287 0.088 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.328
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.257 0.118 1.9.0.1 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 10.332
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.287 0.088 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 10.332
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.287 0.088 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 10.347
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 10.287 0.088 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.010
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.001 0 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.019
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 19.988 0.014 1.2.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 20.023
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.001 0 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.026
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.001 0 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.032
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 19.960 0.013 1.6.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.030
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 20.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.030
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 20.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.030
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 20.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.030
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 20.001 0 1.9.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.036
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.001 0 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.043
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.012 0.026 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.044
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.012 0.026 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 20.044
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.018 0.034 1.3.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.9.0.0/16 20.001 0 1.9.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.012 0.026 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.056
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.039 0.025 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.054
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.027 0.033 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.061
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.049 0.033 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.066
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.027 0.033 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.066
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.001 0 1.6.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.066
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.027 0.033 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.073
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.035 0.045 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.073
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.007 0.043 1.6.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.073
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.035 0.045 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.079
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.035 0.045 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.076
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.015 0.051 1.6.0.1 1.1.0.1 1.3.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.081
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.065 0.057 1.5.0.1 1.6.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.079
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.012 0.026 1.9.0.1 1.5.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.081
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.057 0.038 1.1.0.1 1.3.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.079
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.1.0.0/16 20.035 0.045 1.9.0.1 1.1.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.079
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.042 0.035 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.090
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.042 0.035 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.093
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.042 0.035 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.085
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.046 0.054 1.2.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.098
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.064 0.059 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.098
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.3.0.0/16 20.027 0.033 1.9.0.1 1.3.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.098
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.064 0.059 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.103
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.067 0.030 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.103
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.036 0.068 1.6.0.1 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.108
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.057 0.035 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.108
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.074 0.014 1.1.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.110
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.5.0.0/16 20.082 0.057 1.1.0.1 1.6.0.1 1.5.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.112
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.064 0.059 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.112
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.067 0.030 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.112
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.080 0.064 1.2.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 20.115
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.090 0.063 1.3.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.116
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.100 0.044 1.5.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.118
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.048 0.076 1.6.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.121
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.042 0.035 1.9.0.1 1.2.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.121
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.067 0.030 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.4:31313 at 20.127
+protocol=2 ttl=99 srcAdr=1.2.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.097 0.058 1.2.0.1 1.5.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 20.129
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.100 0.048 1.3.0.1 1.1.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.130
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.110 0.056 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.124
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.064 0.059 1.9.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.132
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.108 0.070 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.132
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.108 0.070 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.3:31313 at 20.132
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.5.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.108 0.070 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.133
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.6.0.0/16 20.067 0.030 1.9.0.1 1.6.0.1
+
+/192.168.1.1:31313 received from /192.168.2.3:31313 at 20.130
+protocol=2 ttl=99 srcAdr=1.5.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.113 0.059 1.5.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.134
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.2.0.0/16 20.112 0.082 1.1.0.1 1.6.0.1 1.5.0.1 1.2.0.1
+
+/192.168.1.1:31313 received from /192.168.2.5:31313 at 20.137
+protocol=2 ttl=99 srcAdr=1.3.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.116 0.092 1.3.0.1 1.4.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.143
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.108 0.070 1.9.0.1 1.2.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.144
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.8.0.0/16 20.118 0.090 1.1.0.1 1.6.0.1 1.5.0.1 1.8.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.4:31313 at 20.154
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.2.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.130 0.083 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.2.5:31313 at 20.154
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.3.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.130 0.083 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.5.2:31313 at 20.159
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.6.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.130 0.083 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.165
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.4.0.0/16 20.143 0.101 1.1.0.1 1.3.0.1 1.4.0.1
+
+/192.168.1.1:31313 received from /192.168.5.2:31313 at 20.170
+protocol=2 ttl=99 srcAdr=1.6.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.104 0.099 1.6.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 sending to /192.168.6.1:31313 at 20.173
+protocol=2 ttl=99 srcAdr=1.9.0.1 destAdr=1.1.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.130 0.083 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+/192.168.1.1:31313 received from /192.168.6.1:31313 at 20.198
+protocol=2 ttl=99 srcAdr=1.1.0.1 destAdr=1.9.0.1
+RPv0
+type: advert
+pathvec: 1.7.0.0/16 20.174 0.113 1.1.0.1 1.6.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+Final Report
+
+Routing table (28.394)
+    prefix  timestamp     cost  link  VLD/INVLD 	 path
+1.5.0.0/16     20.012    0.026     4      valid 1.9.0.1 1.5.0.1
+1.3.0.0/16     20.027    0.033     3      valid 1.9.0.1 1.3.0.1
+1.1.0.0/16     20.035    0.045     1      valid 1.9.0.1 1.1.0.1
+1.2.0.0/16     20.042    0.035     0      valid 1.9.0.1 1.2.0.1
+1.6.0.0/16     20.067    0.030     2      valid 1.9.0.1 1.6.0.1
+1.8.0.0/16     20.064    0.059     4      valid 1.9.0.1 1.5.0.1 1.8.0.1
+1.4.0.0/16     20.108    0.070     0      valid 1.9.0.1 1.2.0.1 1.4.0.1
+1.7.0.0/16     20.130    0.083     4      valid 1.9.0.1 1.5.0.1 1.8.0.1 1.7.0.1
+
+Forwarding table (28.408)
+1.5.0.0/16 4
+1.3.0.0/16 3
+1.1.0.0/16 1
+1.2.0.0/16 0
+1.6.0.0/16 2
+1.8.0.0/16 4
+1.4.0.0/16 0
+1.7.0.0/16 4
+0.0.0.0/0 0
+
+Router link cost statistics
+  peerIp    count  avgCost  minCost  maxCost
+ 1.2.0.1       88    0.071    0.027    0.093
+ 1.1.0.1       25    0.044    0.041    0.049
+ 1.6.0.1       26    0.030    0.027    0.036
+ 1.3.0.1       88    0.056    0.023    0.078
+ 1.5.0.1       26    0.025    0.021    0.031
+
+SrcSnk statistics
+  destIp    count avgDelay minDelay maxDelay
+ 1.6.0.1      261    0.061    0.025    0.128
+ 1.1.0.1      241    0.067    0.040    0.123
+ 1.7.0.1      227    0.090    0.072    0.119
+ 1.8.0.1      303    0.077    0.051    0.128
+ 1.2.0.1      222    0.058    0.021    0.131
+ 1.5.0.1      260    0.055    0.021    0.120
+ 1.4.0.1      243    0.076    0.050    0.122
+ 1.3.0.1      243    0.053    0.021    0.120
+

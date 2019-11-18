@@ -1,0 +1,37 @@
+#! /bin/bash
+source /users/onl/.topology
+
+delta=$2
+runlength=$3
+static=$4
+debug=$5
+
+echo "delta=" $delta " runlength=" $runlength $static $debug
+
+root=cse473s-f19-students-gai.ashkenazy/lab5
+numRtrs=9
+
+host[1]=$h6x1
+host[2]=$h2x4
+host[3]=$h2x5
+host[4]=$h3x2
+host[5]=$h2x3
+host[6]=$h5x2
+host[7]=$h4x2
+host[8]=$h7x1
+host[9]=$h1x1
+
+i=1
+while [ $i -le ${numRtrs} ] ; do
+	ssh ${host[$i]} "cd $root; java TestRouter net3/r${i} \
+	    ${delta} ${runlength} ${static} ${debug} >net3/log$1_${i}" &
+	i=$((i+1))
+done
+sleep $((runlength+15))
+
+i=1
+while [ $i -le ${numRtrs} ] ; do
+	echo "*********** log " $i " *************"
+	grep -A50 "Final Report" log$1_${i}
+	i=$((i+1))
+done

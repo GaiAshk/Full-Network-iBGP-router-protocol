@@ -1,0 +1,14 @@
+#! /bin/bash
+source /users/onl/.topology
+
+numRtrs=3
+
+host[1]=$h4x2
+host[2]=$h7x1
+host[3]=$h2x4
+
+i=1
+while [ $i -le ${numRtrs} ] ; do
+	ssh ${host[$i]} killall java &
+	i=$((i+1))
+done
